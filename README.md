@@ -2,7 +2,7 @@
 
 Real-Time System Intelligence Dashboard for Windows
 
-![CorePulse Banner](assets/banner.png)
+![CorePulse Banner](assets/banner_image.png)
 
 ## Overview
 
