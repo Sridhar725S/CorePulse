@@ -83,7 +83,6 @@ Alternatively, you can download the latest installer from GitHub:
 
 After downloading, run the installer:
 
-```bash
 CorePulse_Setup_v1.0.0.exe
 
 ---
