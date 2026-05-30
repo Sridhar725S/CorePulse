@@ -1,19 +1,150 @@
-# README
+# CorePulse
 
-## About
+Real-Time System Intelligence Dashboard for Windows
 
-This is the official Wails React template.
+![CorePulse Banner](assets/banner.png)
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+## Overview
 
-## Live Development
+CorePulse is a lightweight desktop application built with:
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+- Wails
+- React
+- Go
+- Tailwind CSS
 
-## Building
+It provides real-time monitoring of system performance and hardware statistics through a modern glassmorphism dashboard.
 
-To build a redistributable, production mode package, use `wails build`.
+---
+
+## Features
+
+### Real-Time Monitoring
+
+- CPU Usage
+- RAM Usage
+- Disk Usage
+- Active Processes
+- System Uptime
+
+### Network Analytics
+
+- Upload Speed
+- Download Speed
+- Total Uploaded Data
+- Total Downloaded Data
+
+### Live Charts
+
+- CPU Activity Graph
+- RAM Usage Graph
+
+### System Information
+
+- Hostname
+- Operating System
+- Platform
+- CPU Model
+- CPU Core Count
+- Total RAM
+- Used RAM
+- Disk Information
+
+### Modern Interface
+
+- Glassmorphism UI
+- Realtime Updates
+- Responsive Layout
+- Lightweight Performance
+
+---
+
+## Screenshots
+
+### Dashboard
+
+![Dashboard](assets/dashboard.jpg)
+
+---
+
+## Installation
+
+Download the latest installer from:
+
+https://github.com/YOUR_USERNAME/corepulse/releases
+
+Run:
+
+CorePulse_Setup_v1.0.0.exe
+
+Follow the installation wizard.
+
+---
+
+## Development
+
+### Clone
+
+git clone https://github.com/Sridhar725S/CorePulse.git
+
+### Frontend
+
+cd frontend
+npm install
+
+### Backend
+
+go mod tidy
+
+### Run
+
+wails dev
+
+### Build
+
+wails build
+
+---
+
+## Tech Stack
+
+Frontend
+
+- React
+- TailwindCSS
+- Recharts
+
+Backend
+
+- Go
+- gopsutil
+
+Desktop Framework
+
+- Wails v2
+
+---
+
+## Future Roadmap
+
+- GPU Monitoring
+- Temperature Monitoring
+- Network Diagnostics
+- Process Manager
+- Export Reports
+- Dark / Light Themes
+- Performance Alerts
+
+---
+
+## License
+
+MIT License
+
+---
+
+## Author
+
+Sridhar S
+
+Built with Go + React + Wails
