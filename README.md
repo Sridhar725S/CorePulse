@@ -66,18 +66,25 @@ It provides real-time monitoring of system performance and hardware statistics t
 ![Dashboard](assets/dashboard.jpg)
 
 ---
+## 📥 Installation
 
-## Installation
+You can download CorePulse using either of the following methods:
 
-Download the latest installer from:
+### 🔹 Official Website (Recommended)
+Download the latest version directly from the official website:
+👉 https://sridhar725s.github.io/CorePulse/
 
-https://github.com/YOUR_USERNAME/corepulse/releases
+---
 
-Run:
+### 🔹 GitHub Releases
+Alternatively, you can download the latest installer from GitHub:
 
+👉 https://github.com/Sridhar725S/CorePulse/releases/tag/v1.0.0
+
+After downloading, run the installer:
+
+```bash
 CorePulse_Setup_v1.0.0.exe
-
-Follow the installation wizard.
 
 ---
 
